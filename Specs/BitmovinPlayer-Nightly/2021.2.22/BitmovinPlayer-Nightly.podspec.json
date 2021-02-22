@@ -1,0 +1,47 @@
+{
+  "name": "BitmovinPlayer-Nightly",
+  "version": "2021.2.22",
+  "summary": "Bitmovin Player SDK nightly build for iOS and tvOS",
+  "homepage": "https://www.bitmovin.com/",
+  "social_media_url": "https://twitter.com/bitmovin",
+  "documentation_url": "https://www.bitmovin.com/",
+  "authors": {
+    "Bitmovin": "support@bitmovin.com"
+  },
+  "license": {
+    "type": "Commercial",
+    "file": "BitmovinPlayer/LICENSE.md"
+  },
+  "source": {
+    "http": "https://cdn.bitmovin.com/player/ios_tvos/2021.2.22/BitmovinPlayer-Nightly.zip"
+  },
+  "platforms": {
+    "ios": "10.0",
+    "tvos": "10.0"
+  },
+  "ios": {
+    "vendored_frameworks": "BitmovinPlayer/iOS/BitmovinPlayer.framework",
+    "frameworks": [
+      "Foundation",
+      "UIKit",
+      "AVFoundation",
+      "AVKit",
+      "WebKit"
+    ]
+  },
+  "tvos": {
+    "vendored_frameworks": "BitmovinPlayer/tvOS/BitmovinPlayer.framework",
+    "frameworks": [
+      "Foundation",
+      "UIKit",
+      "AVFoundation",
+      "AVKit"
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  }
+}
