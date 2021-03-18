@@ -1,0 +1,46 @@
+{
+  "name": "BitmovinPlayer",
+  "version": "3.0.0-rc.1",
+  "summary": "Bitmovin Player SDK release build for iOS and tvOS",
+  "homepage": "https://www.bitmovin.com/",
+  "social_media_url": "https://twitter.com/bitmovin",
+  "documentation_url": "https://www.bitmovin.com/",
+  "authors": {
+    "Bitmovin": "support@bitmovin.com"
+  },
+  "license": {
+    "type": "Commercial",
+    "file": "LICENSE.md"
+  },
+  "source": {
+    "http": "https://cdn.bitmovin.com/player/ios_tvos/3.0.0-rc.1/BitmovinPlayer.zip"
+  },
+  "vendored_frameworks": "BitmovinPlayer.xcframework",
+  "platforms": {
+    "ios": "10.0",
+    "tvos": "10.0"
+  },
+  "ios": {
+    "frameworks": [
+      "Foundation",
+      "UIKit",
+      "AVFoundation",
+      "AVKit",
+      "WebKit"
+    ]
+  },
+  "tvos": {
+    "frameworks": [
+      "Foundation",
+      "UIKit",
+      "AVFoundation",
+      "AVKit"
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  }
+}
