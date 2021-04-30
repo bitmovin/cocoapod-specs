@@ -1,6 +1,6 @@
 # The Bitmovin CocoaPods Repo
 
-This repository contains all public CocoaPods specifications provided by [Bitmovin](https://bitmovin.com).
+This repository contains public CocoaPods specifications provided by [Bitmovin](https://bitmovin.com).
 
 ## Using
 
@@ -11,4 +11,4 @@ This repository contains all public CocoaPods specifications provided by [Bitmov
 
 ## Support
 
-If you have any questions or issues, or you require other technical support for our services, please login to your Bitmovin Dashboard at https://bitmovin.com/dashboard and create a new support case. Our team will get back to you as soon as possible 👍
+If you have any questions or issues, or you require other technical support for our services, please login to your Bitmovin Dashboard and create a new support case at https://bitmovin.com/dashboard/support/cases/create?tab=player. Our team will get back to you as soon as possible 👍
