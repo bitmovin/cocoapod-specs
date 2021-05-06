@@ -11,4 +11,4 @@ This repository contains public CocoaPods specifications provided by [Bitmovin](
 
 ## Support
 
-If you have any questions or issues, or you require other technical support for our services, please login to your Bitmovin Dashboard and create a new support case at https://bitmovin.com/dashboard/support/cases/create?tab=player. Our team will get back to you as soon as possible 👍
+If you have any questions or issues, or you require other technical support for our services, please login to your Bitmovin Dashboard and [create a new support case](https://bitmovin.com/dashboard/support/cases/create?tab=player). Our team will get back to you as soon as possible 👍
