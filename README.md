@@ -2,7 +2,7 @@
 
 This repository contains public CocoaPods specifications provided by [Bitmovin](https://bitmovin.com).
 
-## Using
+## Installation
 
 1. Add `source 'https://github.com/bitmovin/cocoapod-specs.git'` to your `Podfile`.
 1. Run `pod repo update` to add the newly added source.
