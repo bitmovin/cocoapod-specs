@@ -1,0 +1,40 @@
+{
+  "name": "BitmovinPlayer-Nightly",
+  "version": "2022.1.8",
+  "summary": "Bitmovin Player SDK nightly build for iOS and tvOS",
+  "homepage": "https://www.bitmovin.com/",
+  "social_media_url": "https://twitter.com/bitmovin",
+  "documentation_url": "https://www.bitmovin.com/",
+  "authors": {
+    "Bitmovin": "support@bitmovin.com"
+  },
+  "license": {
+    "type": "Commercial",
+    "file": "LICENSE.md"
+  },
+  "source": {
+    "http": "https://cdn.bitmovin.com/player/ios_tvos/2022.1.8/BitmovinPlayer-Nightly.zip"
+  },
+  "vendored_frameworks": "BitmovinPlayer.xcframework",
+  "platforms": {
+    "ios": "12.0",
+    "tvos": "12.0"
+  },
+  "ios": {
+    "frameworks": [
+      "Foundation",
+      "UIKit",
+      "AVFoundation",
+      "AVKit",
+      "WebKit"
+    ]
+  },
+  "tvos": {
+    "frameworks": [
+      "Foundation",
+      "UIKit",
+      "AVFoundation",
+      "AVKit"
+    ]
+  }
+}
