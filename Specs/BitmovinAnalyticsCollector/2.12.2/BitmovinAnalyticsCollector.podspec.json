@@ -31,14 +31,16 @@
       "tvos": {
         "dependencies": {
           "BitmovinPlayer": [
-            "~>3.35"
+            "~>3.35",
+            "<3.42"
           ]
         }
       },
       "ios": {
         "dependencies": {
           "BitmovinPlayer": [
-            "~>3.35"
+            "~>3.35",
+            "<3.42"
           ]
         }
       }
