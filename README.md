@@ -2,6 +2,11 @@
 
 This repository contains public CocoaPods specifications provided by [Bitmovin](https://bitmovin.com).
 
+## Deprecated - Use trunk instead
+
+> [!WARNING]
+Since version **3.77.0** of the player and version **3.8.1** of analytics, we have switched to publishing on the [CocoaPods](https://cocoapods.org/) Trunk repository, so no further releases will be published here.
+
 ## Installation
 
 1. Add `source 'https://github.com/bitmovin/cocoapod-specs.git'` to your `Podfile`.
