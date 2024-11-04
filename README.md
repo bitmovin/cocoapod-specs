@@ -5,7 +5,7 @@ This repository contains public CocoaPods specifications provided by [Bitmovin](
 ## Deprecated - Use trunk instead
 
 > [!WARNING]
-Since version **3.77.0** of the player and version **3.8.1** of analytics, we have switched to publishing on the [CocoaPods](https://cocoapods.org/) Trunk repository, so no further releases will be published here.
+Since version **3.77.0** of the player and version **3.8.1** of the analytics collector, we have switched to publishing on the [CocoaPods](https://cocoapods.org/) Trunk repository, so no further releases will be published here.
 
 ## Installation
 
